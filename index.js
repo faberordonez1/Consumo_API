@@ -1,6 +1,6 @@
 function renderPokemon(data) {
 
-  var main = document.getElementsByTagName("main")[0];
+  var main = document.getElementsByTagName("main")[0];/**Captura main contenedor */
   
   var card = document.createElement("div");
   main.appendChild(card);

@@ -30,13 +30,13 @@ function getPokemon(url) {
     .catch((error) => console.log(error));
 }
 
-var cantPokemones = prompt("¿ Cuantos pokemones deseas mostrar ?");
-
-for (var i = 1; i <= cantPokemones; i++) {
-  //https://pokeapi.co/api/v2/{endpoint}
-  var url = "https://pokeapi.co/api/v2/pokemon/" + i + "/";
-   getPokemon(url);
-
-}
-
+window.onload = function() {
+  var cantPokemones = prompt("¿ Cuantos pokemones deseas mostrar ?");
+  
+  for (var i = 1; i <= cantPokemones; i++) {
+    //https://pokeapi.co/api/v2/{endpoint}
+    var url = "https://pokeapi.co/api/v2/pokemon/" + i + "/";
+     getPokemon(url);
+  }
+};
 

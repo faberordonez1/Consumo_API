@@ -33,7 +33,9 @@ function getPokemon(url) {
     .catch((error) => console.log(error));
 }
 
-for (var i = 1; i > 5; i++) {
+var cantPokemones = prompt("¿ Cuantos pokemones deseas mostrar?");
+
+for (var i = 1; i > cantPokemones; i++) {
   var url = "https://pokeapi.co/api/v2/pokemon/" + i + "/";
   getPokemon(url);
 }

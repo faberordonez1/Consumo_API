@@ -36,6 +36,7 @@ for (var i = 1; i <= cantPokemones; i++) {
   //https://pokeapi.co/api/v2/{endpoint}
   var url = "https://pokeapi.co/api/v2/pokemon/" + i + "/";
    getPokemon(url);
+
 }
 
 

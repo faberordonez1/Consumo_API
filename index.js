@@ -37,5 +37,6 @@ var cantPokemones = prompt("¿ Cuantos pokemones deseas mostrar?");
 
 for (var i = 1; i > cantPokemones; i++) {
   var url = "https://pokeapi.co/api/v2/pokemon/" + i + "/";
+  console.log(url);
   getPokemon(url);
 }

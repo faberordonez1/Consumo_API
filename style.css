@@ -2,7 +2,7 @@
   margin: 0;
   font-family: "Open Sans";
 }
-h1 {
+h1, h3{
   text-align: center;
   padding: 1em;
 }
@@ -10,11 +10,13 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   margin: 2em;
+  width:90vw;
+  height: 90vh;
 }
-.poke_card {
-  width: 500px;
-  height: 300px;
+div {
+  width: 250px;
   border: solid 0px red;
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);

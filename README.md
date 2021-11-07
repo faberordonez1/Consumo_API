@@ -1,9 +1,12 @@
-# Consumo_API
-Created with CodeSandbox
+# Apis Consumidas con JS
 
-CardS generadas consumiendo la API pública de Pokemon
+Proyectos Generados consumiendo APIS, cada rama corresponde a una API diferente
 
-Ver Demo
+Peliculas TMDB v3
+https://faber-movies.netlify.app/
+
+Poke Api
+https://faberordonez1.github.io/Consumo_API/
+
 https://codesandbox.io/s/github/faberordonez1/Consumo_API
 
-https://faberordonez1.github.io/Consumo_API/

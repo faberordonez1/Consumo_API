@@ -1,21 +1,24 @@
 * {
   margin: 0;
-  font-family: "Open Sans";
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat, sans-serif;
 }
-h1, h3{
+h1{
   text-align: center;
   padding: 1em;
 }
-main {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin: 2em;
+.contenedor {
   width:90vw;
-  height: 90vh;
+  max-width: 1000px;
+  margin: 2em;
+  /* margin: 4px auto 100px auto; */
+  
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 3.8em;
 }
-div {
+/*div {
   width: 250px;
   border: solid 0px red;
   border-radius: 10px;
@@ -26,4 +29,34 @@ img {
   width: 90%;
   height: auto;
   padding: 0;
+}*/
+
+/*Paginacion*/
+.paginacion{
+  width: 100%;
+  background: #100a1f;
+  position: fixed;
+  bottom: 0;
+
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+.paginacion button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 11.1em;
+  height: 2.8em;
+  background: #241744;
+  color: #fff;
+  border-radius: 100px;
+  font-weight: 600;
+  transition: .3s ease all;
+  cursor: pointer;
+  border: none;
+}
+.paginacion button:hover{
+  background: #137c32;
 }

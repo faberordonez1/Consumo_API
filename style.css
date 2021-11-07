@@ -11,26 +11,24 @@ h1{
 .contenedor {
   width:90vw;
   max-width: 1000px;
-  margin: 2em;
-  /* margin: 4px auto 100px auto; */
+  margin: 4px auto 100px auto;
   
   display: grid;
   grid-template-columns: repeat(4,1fr);
   gap: 3.8em;
 }
-/*div {
-  width: 250px;
-  border: solid 0px red;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin: 20px;
+.contenedor .pelicula{
+  text-align: center;
 }
-img {
-  width: 90%;
-  height: auto;
-  padding: 0;
-}*/
-
+.contenedor .pelicula .titulo{
+  font-size: 16px;
+}
+.contenedor .pelicula .poster {
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 /*Paginacion*/
 .paginacion{
   width: 100%;

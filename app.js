@@ -3,6 +3,9 @@ const contenedor = document.querySelector(".contenedor");/**Captura main contene
 const btnAnterior = document.querySelector("#btnAnterior");
 const btnSiguiente = document.querySelector("#btnSiguiente");
 
+
+/**Video URL https://youtu.be/a2cQ7YLyjzE  */
+
 /**Paginador */
 btnSiguiente.addEventListener('click', ()=>{
   if(pagina < 1000){/**La API retorna maximo */
@@ -72,7 +75,7 @@ function limpiarContenedor(){
   //const main = document.getElementsByClassName("pelicula");
   //contenedor.removeChild(main);
 
-  for(let i = 0; i < 39;i++ ){
+  for(let i = 0; i < 20;i++ ){
     var card = document.querySelector(".pelicula");
     contenedor.removeChild(card);
     //const main = document.getElementsByClassName("pelicula")[0];
